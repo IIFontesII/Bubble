@@ -20,6 +20,7 @@ function dots4() {
     changeSlide('-2640px', 'bg3');
 }
 
+
 function changeSlide(marginLeft, bg) {
     document.getElementById('slide-cont').style.marginLeft = marginLeft;
 
