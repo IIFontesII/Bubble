@@ -1,6 +1,8 @@
 //Criei um array String para ficar mais facil a iteração da lista para ficar mais facil mudar a cor dos pontinhos
 var bgs = ['bg', 'bg1', 'bg2', 'bg3']
 
+// VINICIUS
+
 //Já chamo de cara a funcão no carregamento da tela para colocar a cor branca no pontinho
 changeSlide('0px', 'bg');
 
