@@ -1,0 +1,147 @@
+body {
+    padding:0;
+    margin:0;
+}
+/* CABEÇALHO E MENU */
+.header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+header {
+    background-image: url('../images/purple.jpg');
+    background-size: 100%;
+    height: 750px;
+}
+.head-int {
+    width: 100%;
+    max-width: 1200px;
+    height: 70px;
+    display: flex;
+}
+.head-left {
+    width: 100%;
+    max-width: 600px;
+    height: 70px;
+}
+.head-right {
+    width: 100%;
+    max-width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo {
+    padding-top: 2px;
+}
+.menu-list {
+    list-style: none;
+    display: flex;
+}
+.linked-menu {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.linked-menu:hover {
+    color: rgb(183, 0, 255);
+    transition: all 0.3s ease-in;
+    background-color: #fff;
+}
+
+.item-menu{
+    font-weight: 400;
+}
+.box {
+    width: 100%;
+    max-width: 800px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+    width: 100%;
+    max-width: 550px;
+    height: 350px;
+    background-color: rgba(83, 0, 121, 0.644);
+    margin-bottom: 250px;
+    margin-right: 100px;
+}
+.text {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    padding: 10px;
+}
+/* FIM CABEÇALHO E MENU */
+/* SLIDE */
+section {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+
+.slide {
+    width: 100%;
+    max-width: 880px;
+    height: 240px;
+    margin: auto;
+    margin-top: 20px;
+}
+.slide-box {
+    width: 100%;
+    max-width: 880px;
+    height: 200px;
+    background: purple;
+    overflow: hidden;
+}
+.slide-container {
+    width: 10000px;
+    height: 200px;
+    background: orange;
+    display: flex;
+}
+.slide-1 {
+    width: 880px;
+    height: 200px;
+    background: green;
+}
+.slide-2 {
+    width: 880px;
+    height: 200px;
+    background: red;
+}
+.slide-3 {
+    width: 880px;
+    height: 200px;
+    background: black;
+}
+.slide-4 {
+    width: 880px;
+    height: 200px;
+    background: rgb(10, 255, 112);
+}
+.navigation {
+    width: 880px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.dots {
+    width: 10px;
+    height: 10px;
+    background: #aaa;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
